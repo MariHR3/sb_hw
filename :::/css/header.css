@@ -1,0 +1,193 @@
+.header {
+    height: 550px;
+    /* width: auto; */
+    background: url(../img/background.jpg) no-repeat center; 
+    background-size: cover;
+}
+
+
+.header_menu {
+    display: flex;
+    height: 180px;
+    width: auto;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px auto 38px auto;
+    z-index: 3;
+}
+
+.header_holiday {
+    z-index: 3;
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+
+.holiday_logo {
+    z-index: 3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+.holiday_title {
+    z-index: 3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+.holiday_text {
+    z-index: 3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    width: 220px;
+    text-align: center;
+    margin-bottom: 18px;
+
+}
+
+.holiday_find_partner {
+    z-index: 3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    background: #1609cc;
+    border: 2px solid transparent;
+    border-radius: 34px;
+    padding: 12px 50px;
+    outline: none;
+}
+
+.holiday_find_partner:hover {
+    z-index: 3;
+    color: #1609cc;
+    background-color: #fff;
+}
+
+/* tablet */
+
+@media (min-width: 768px) {
+    
+    .header {
+        z-index: 3;
+        height: 700px;
+    }
+    
+    .header_menu {
+        z-index: 3;
+        justify-content: space-between;
+        height: auto;
+        width: 675px;
+        margin: 0px auto 160px auto;
+        padding-top: 38px;
+    }
+
+    .header_button_wrapper {
+        z-index: 3;
+        font-size: 0px;
+    }
+    
+    .header_holiday {
+        width: 500px;
+        height: auto;
+    }
+    
+    .log_in {
+        margin-top: 0px;
+    }
+    
+    .sign_up {
+        margin-top: 0px;
+    }
+    
+    .holiday_logo {
+        order: -1;
+    }
+    
+    .holiday_title {
+        margin-bottom: 30px;
+        font-size: 52px;
+    }
+    
+    .holiday_text {
+        margin-bottom: 34px;
+        font-size: 24px;
+        width: auto;
+    }
+    
+    .holiday_find_partner {
+        padding: 15px 50px
+    }
+}
+
+/* laptop */
+
+@media (min-width: 1024px) {
+
+    .header {
+        z-index: 3;
+        height: 700px;
+    }
+
+    .header_menu {
+        z-index: 3;
+        justify-content: space-between;
+        height: auto;
+        width: 940px;
+        margin: 0px auto 160px auto;
+        padding-top: 38px;
+    }
+
+    .header_button_wrapper {
+        font-size: 0px;
+    }
+    
+    .header_holiday {
+        width: 500px;
+        height: auto;
+    }
+    
+    .log_in {
+        z-index: 3;
+        margin-top: 0px;
+    }
+    
+    .sign_up {
+        z-index: 3;
+        margin-top: 0px;
+    }
+    
+    .holiday_logo {
+        order: -1;
+    }
+    
+    .holiday_title {
+        margin-bottom: 30px;
+        font-size: 52px;
+    }
+    
+    .holiday_text {
+        margin-bottom: 34px;
+        font-size: 24px;
+        width: auto;
+    }
+    
+    .holiday_find_partner {
+        padding: 15px 40px;
+    }
+} 
