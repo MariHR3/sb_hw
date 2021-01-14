@@ -1,28 +1,24 @@
-/* .main {
+.main {
     padding-top: 150px;
     width: 1200px;
     margin: 0 auto;
-} */
-.main {
-    padding: 1rem 1rem;
 }
 
 .main_servises {
-    justify-content: center;
     text-align: center;
 }
 
 .services_subtitle {
-    font-size: 32px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 400;
     font-family: 'Kaushan Script', cursive;
     text-transform: none;
     color: #333333;
 }
 
 .services_title {
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: #333333;
@@ -42,12 +38,13 @@
 
 /* Card */
 
+
 .card {
     padding-top: 66px;
-    /* display: flex;
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 1000px; */
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -73,7 +70,7 @@
     width: 33px;
     height: 32px;
     padding-left: 60px;
-    background: url('../img/icon_01.png');
+    background: url('../images/ALARM.png');
     background-repeat: no-repeat;
 }
 
@@ -83,7 +80,7 @@
     width: 33px;
     height: 33px;
     padding-left: 60px;
-    background: url('../img/icon_02.png');
+    background: url('../images/LINE.png');
     background-repeat: no-repeat;
 
 }
@@ -94,7 +91,7 @@
     width: 33px;
     height: 31px;
     padding-left: 60px;
-    background: url('../img/icon_03.png');
+    background: url('../images/COMPUTER.png');
     background-repeat: no-repeat;
 }
 
@@ -104,7 +101,7 @@
     width: 32px;
     height: 32px;
     padding-left: 60px;
-    background: url('../img/icon_04.png');
+    background: url('../images/BOOK.png');
     background-repeat: no-repeat;
 }
 
@@ -114,7 +111,7 @@
     width: 32px;
     height: 32px;
     padding-left: 60px;
-    background: url('../img/icon_05.png');
+    background: url('../images/HOME.png');
     background-repeat: no-repeat;
 }
 
@@ -124,7 +121,7 @@
     width: 32px;
     height: 32px;
     padding-left: 60px;
-    background: url('../img/icon_06.png');
+    background: url('../images/IMAGE.png');
     background-repeat: no-repeat;
 }
 
@@ -198,15 +195,14 @@
 
 .card_wrapper {
     display: flex;
-
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
     margin-top: 90px;
 }
 
 
-/* .team_card_container {
+.team_card_container {
     position: relative;
-} */
+}
 
 
 .team_photo {
@@ -300,229 +296,3 @@
     font-style: italic;
     margin: 15px auto 0 auto;
 }
-
-
-
-
-.partners_title {
-    text-align: center;
-    margin: 68px auto 14px auto;
-    width: 270px;
-    color: #333333;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 22px;
-}
-
-.partners_wrapper {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-}
-
-
-.partners_card {
-    width: 217px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    align-content: flex-start;
-    margin: 0px auto 27px auto;
-}
-
-.partners_card:nth-child(4) {
-    margin-bottom: 0px;
-}
-
-.partners_card_img {
-    width: 130px;
-    height: 130px;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    position: relative;
-}
-
-.partners_icon_wrapper {
-    border-radius: 50%;
-    width: 36px;
-    height: 36px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid white;
-    position: absolute;
-    transform: translate(125%, 250%);
-}
-
-.icon {
-    width: 36px;
-    height: 36px;
-}
-
-.red_icon {
-    background-color: #FF4E50;
-}
-
-.yellow_icon {
-    background-color: #fff;
-}
-
-.green_icon {
-    background-color :#1CD7AD;
-}
-
-.blue_icon {
-    background-color: #fff;
-}
-
-.partners_icon {
-
-}
-
-.partners_name {
-    margin-bottom: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    color: #333333;
-}
-
-.partners_text {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-    color: #666666;
-}
-
-.partners_buttom {
-    margin: 27px auto 54px auto;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    color: #1609cc;
-    background: none;
-    border: 2px solid #1609cc;
-    border-radius: 40px;
-    padding: 13px 51px 13px 51px;
-    outline: none;
-}
-
-.partners_buttom:hover {
-    color: #fff;
-    background-color: #1609cc;
-    /* transition: color 0.3s ease-out;
-    background-color: 0.3s ease-out;
-    border-color: 0.3s ease-out; */
-}
-
-.antivirus_buttom {
-    margin: 27px auto 54px auto;
-}
-
-
-/* tablet */
-
-@media (min-width: 768px) {
-    
-    .partners_title {
-        text-align: center;
-        margin: 72px auto 30px auto;
-        width: auto;
-    }
-
-    .partners_wrapper {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        width: 470px;
-    }
-    
-    .partners_card {
-        margin-bottom: 57px;
-    }
-
-    .partners_card:nth-child(3) {
-        order: -1;
-    }
-
-    .partners_card:nth-child(1) {
-        order: -2;
-    }
-
-    .partners_card:nth-child(even) {
-        margin-bottom: 0px;
-    }
-
-    .partners_buttom {
-        margin-top: 40px;
-        margin-bottom: 40px;
-        padding: 20px 70px;
-        font-size: 18px;
-    }
-
-    .card {
-        padding-top: 66px;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        width: 700px;
-        margin: 0 auto;
-    }
-
-    .card_text {
-        width: 245px;
-    }
-
-}
-
-/* laptop */
-
-@media (min-width: 1024px) {
-
-    .main {
-        margin: 0 auto;
-    }
-
-    .partners_wrapper {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        width: 920px;
-    }
-    
-    .partners_card {
-        margin-bottom: 0px;
-    }
-
-    .partners_buttom {
-        margin-bottom: 70px;
-    }
-
-
-
-
-    .card {
-        padding-top: 66px;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        width: 1000px;
-        margin: 0 auto;
-    }
-
-    .card_wrapper {
-        display: flex;
-    
-        /* justify-content: space-evenly; */
-        margin-top: 90px;
-    }
-
-    .card_text {
-        width: 280px;
-    }
-    
-    .team_card_container {
-        position: relative;
-    }
-}   
